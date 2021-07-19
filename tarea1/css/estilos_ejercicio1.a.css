@@ -1,0 +1,56 @@
+/*
+ -Título color blanco, fondo rojo y tamaño-fuente 35px 
+ -Subtítulo color blanco, fondo rojo y tamaño-fuente 20px 
+ -Párrafo color de FONDO verde, color de fuente blanco y tamaño-fuente 20px 
+ - Imagen: 400px x 400px - Quitar subrayado y color azul al link (color negro). 
+ - Investigar que es un pseudo-selector y ponerlo en práctica: 
+ al poner el cursor del mouse sobre el link que cambie de color a verde Recordar utilizar buenas prácticas, 
+ optimizar el código lo más que se pueda.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap'); /*Link para usar una tipografía extraída de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap'); /* Link para usar una tipografía extraída de Google Fonts */
+
+body{
+    background-color: white; /* Se establece el color blanco como fondo para los elementos del body */
+    font-family: 'Uchen', serif; /* Se establece la fuente de los elementos que estén dentro del body */
+    text-align: center; /* Se estable el alineamiento central para los elementos del body */
+    color: white;/* Se establece el color para el texto que esté dentro del body */
+    padding: 20px; /* Se establece el espacio entre el contenido y el borde de la página */ 
+}
+
+h1, h2 {
+    font-family: 'Zilla Slab', serif; /* Se establece una fuente distinta para el título y subtítulo */
+    letter-spacing: .040rem; /* Se establece el espacio entre las letras */
+    background-color: rgb(255, 0, 0); /* Se establece el color rojo como fondo del título */
+}
+
+h1{
+    font-size: 35px; /* Se establece el tamaño del texto del título */
+    font-weight: bold; /* Se establece el título en negrita */
+}
+
+h2{
+    font-size: 20px; /* Se establece el tamaño del texto del subtítulo */
+} 
+
+p{
+    background-color: green; /* Se establece el color verde como fondo para el párrafo */
+    font-size: 20px; /* Se establece el tamaño del texto para el párrafo */
+}
+
+img {
+    width: 400px; /* Se establece el ancho para las imágenes */
+    height: 400px; /* Se establece el alto para las imágenes */
+}
+
+a{
+    color: black; /* Se establece el color negro para el texto que vincula a la otra página web */
+    text-decoration: none; /* Se establece que el link no esté subrayado*/
+    font-size: 22px; /* Se establece el tamaño del texto para el párrafo */
+}
+
+a:hover{
+    color: green; /* Se establece que el texto sea verde cuando se pone el cursor del mouse sobre el link */
+}
+
