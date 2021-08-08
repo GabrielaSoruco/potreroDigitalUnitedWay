@@ -1,0 +1,58 @@
+body {
+	background-color: black;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Open Sans", sans-serif;
+}
+
+.container {
+	background-color: rgb(240, 240, 240);
+	color: gray;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 5vh;
+	margin-bottom: 1vh;
+}
+
+.caja1 {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	margin-right: 18px;
+	font-size: 26px;
+	text-align: justify;
+	font-size: 18px;
+}
+
+.caja1 h1 {
+	padding-top: 0px;
+	color: black;
+	margin-top: 0px;
+	font-size: 32px;
+	font-family: "Montserrat", sans-serif;
+}
+
+.caja1 p {
+	display: inline-block;
+	margin-top: 0px;
+}
+.caja2 {
+	margin-left: 25px;
+	margin-bottom: 15px;
+	padding-right: 0px;
+	padding-top: 0px;
+	height: 420px;
+	float: right;
+}
+.parrafo1 {
+	color: rgb(155, 155, 155);
+	font-family: sans-serif;
+	font-style: italic;
+	letter-spacing: 1px;
+	font-weight: 540;
+}
+
+.parrafo3 {
+	font-size: 15px;
+}
